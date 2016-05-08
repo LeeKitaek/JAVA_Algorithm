@@ -180,15 +180,15 @@ public class ArrayStructures {
 		
 		System.out.println(newArray.doesArrayContainThisValue(18));
 		
-//		newArray.deleteIndex(4);
-//		
-//		newArray.printArray();
-//		
-//		newArray.insertValue(55);
-//		
-//		newArray.printArray();
-//		
-//		newArray.linearSearchForValue(17);
+		newArray.deleteIndex(4);
+		
+		newArray.printArray();
+		
+		newArray.insertValue(55);
+		
+		newArray.printArray();
+		
+		newArray.linearSearchForValue(17);
 	}
 
 }
