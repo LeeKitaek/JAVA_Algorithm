@@ -159,6 +159,35 @@ public class ArrayStructures {
 		}
 		
 	}
+	
+	public void SelectSort()			
+	{
+		for(int i=0;i<arraySize;i++)
+			for(int j=i+1;ㅓ<arraySize;j++)
+			{
+				if(theArray[i] > theArray[j])
+				{
+					swapValues(i,j);
+				}
+			}
+	}
+	
+	public void insertionSort()
+	{
+		
+		   for(int i = 1 ; i < arraySize ; i++){
+			      
+			      int tmp = theArray[i];
+			      int j = i - 1;
+
+			      while( (j >= 0) && ( theArray[j] > tmp) ) {
+			    	  swapValues(j+1, j);
+			         j--;
+			      }
+			      theArray[j + 1] = tmp;
+			   }
+		
+	}
 		
 	public void swapValues(int indexOne, int indexTwo){
 		
