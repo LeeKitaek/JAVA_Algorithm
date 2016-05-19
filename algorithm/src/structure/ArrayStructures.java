@@ -163,7 +163,7 @@ public class ArrayStructures {
 	public void SelectSort()			
 	{
 		for(int i=0;i<arraySize;i++)
-			for(int j=i+1;ㅓ<arraySize;j++)
+			for(int j=i+1;i<arraySize;j++)
 			{
 				if(theArray[i] > theArray[j])
 				{
